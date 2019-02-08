@@ -9,9 +9,8 @@ def turn (board)
 end 
 
 def current_player(board)
- turn_count(board).each
- do 
-    |count| if count  % 2 == 0
+ 
+    if turn(board)  % 2 == 0
     puts "X"
     end 
     puts "O"
