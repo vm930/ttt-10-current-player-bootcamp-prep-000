@@ -9,10 +9,9 @@ def turn (board)
 end 
 
 def current_player(board)
- 
-    if turn(board)  % 2 == 0
+  if turn(board)  % 2 == 0
     puts "X"
-    end 
+  else
     puts "O"
   end 
 end 
