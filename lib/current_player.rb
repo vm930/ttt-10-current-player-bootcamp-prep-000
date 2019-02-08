@@ -9,7 +9,6 @@ def turn (board)
 end 
 
 def current_player(board,count)
-  
   board.each do 
     |i| if turn_count(board) % 2 == 0
     puts "X"
