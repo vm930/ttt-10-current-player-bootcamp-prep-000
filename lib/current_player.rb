@@ -8,7 +8,7 @@ def turn (board)
   end 
 end 
 
-def current_player(board,count)
+def current_player(board)
  turn_count(board).each
  do 
     |count| if count  % 2 == 0
