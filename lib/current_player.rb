@@ -4,7 +4,7 @@ def turn_count(board)
     |item| if item == "X" || item == "O"
                 return count +=1
            else 
-              count
+              return count
             end 
         end 
 end 
