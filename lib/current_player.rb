@@ -4,9 +4,9 @@ def turn_count(board)
     |item| if item == "X" || item == "O"
                 return count +=1
            else 
-                 count
+              count
             end 
-              end 
+        end 
 end 
 
 def current_player(board,turn_count)
