@@ -11,10 +11,9 @@ end
 def current_player(board,count)
  turn_count(board).each
  do 
-    |count| if  % 2 == 0
+    |count| if count  % 2 == 0
     puts "X"
-    else 
-        puts "O"
     end 
+    puts "O"
   end 
 end 
